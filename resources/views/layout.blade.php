@@ -27,18 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
-
-
-
-
-  <!-- =======================================================
-  * Template Name: BizLand - v2.0.3
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
-
 <body>
 
   <!-- ======= Top Bar ======= -->
@@ -96,6 +85,60 @@
 
 
   @yield('content')
+  <!-- === feattured SEction ==== --->
+  <section class="featured-services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box">
+                    <div class="icon">
+                        <i class="bx bx-dribble"></i>
+                    </div>
+                    <h4 class="title">RPL</h4>
+                    <p class="description">
+                        ini adalah description
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box">
+                    <div class="icon">
+                        <i class="bx bx-dribble"></i>
+                    </div>
+                    <h4 class="title">RPL</h4>
+                    <p class="description">
+                        ini adalah description
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box">
+                    <div class="icon">
+                        <i class="bx bx-dribble"></i>
+                    </div>
+                    <h4 class="title">RPL</h4>
+                    <p class="description">
+                        ini adalah description
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box">
+                    <div class="icon">
+                        <i class="bx bx-dribble"></i>
+                    </div>
+                    <h4 class="title">RPL</h4>
+                    <p class="description">
+                        ini adalah description
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
   <footer id="footer">
 <div class="footer-top">
   <div class="container">

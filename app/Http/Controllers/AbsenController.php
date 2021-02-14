@@ -15,7 +15,7 @@ class AbsenController extends Controller
      */
     public function index()
     {
-        $absensi = DB::table('absensi')->get();
+        $absensi = DB::table('absensis')->get();
         return view('/absensi/index', ['absensi' => $absensi]);
     }
 

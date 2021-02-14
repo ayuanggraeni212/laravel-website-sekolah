@@ -12,8 +12,9 @@
         <a href="https://youtu.be/ZI0oIjdm4R0" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
       </div>
     </div>
+
   </section><!-- End Hero -->
 
   <main id="main">
-   
+
 @endSection

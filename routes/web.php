@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\AbsenController;
+use App\Http\Controllers\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +45,7 @@ Route::get('/login-page-guru', [PagesController::class, 'guru']);
 Route::post('/login-page-guru', [AbsenController::class, 'store']);
 Route::get('/coba-login-admin', [PagesController::class, 'cobaadmin']);
 Route::get('/coba-login-guru', [PagesController::class, 'cobaguru']);
+
+
+//halaman admin
+Route::resource('admin-page',AdminController::class);
